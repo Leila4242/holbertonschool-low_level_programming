@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Prints the size of specific types (32-bit)
  *
