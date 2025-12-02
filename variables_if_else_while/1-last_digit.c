@@ -7,9 +7,12 @@
 int main(void)
 {
 	int n;
-
+    
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+    while (n>10){
+		int n = n%10 
+	}
 	if (n<6 && n!=0){
         printf("%d and is greater than 5\n",n);
     }
