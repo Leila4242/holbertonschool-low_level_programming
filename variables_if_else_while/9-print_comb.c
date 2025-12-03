@@ -20,11 +20,9 @@ int main(void)
 	    }
 	    else{
 	        putchar(c + '0');
-		    putchar(' ');
 		    c++;
 	    }
 	}
-	putchar('\n');
 
 	return (0);
 }
