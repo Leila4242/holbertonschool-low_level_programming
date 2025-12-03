@@ -9,6 +9,7 @@ int main(void)
     int i;
     
     i = 0;
+    // Print all hexadecimal digits (0-9, a-f)
     while (i < 16)
     {
         if (i < 10)
@@ -18,7 +19,7 @@ int main(void)
         i++;
     }
     
-    putchar('\n');
+    putchar('\n');  // Add newline at the end
     
     return (0);
 }
