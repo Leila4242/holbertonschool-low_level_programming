@@ -18,8 +18,6 @@ int main(void)
             putchar(i - 10 + 'a');
         i++;
     }
-    
-    putchar('\n');  // Add newline at the end
-    
+    putchar('\n'); 
     return (0);
 }
