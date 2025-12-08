@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * _strlen - returns the length of a string
+ * _strlen - Returns the length of a string
  * @s: pointer to string
  *
- * Return: void
+ * Return: length of string
  */
 
 int _strlen(char *s)
-{	char str[] = *s;
+{
 	int i;
+
 	i = 0;
-	while (str[i] != '\0')
+	while (s[i] != '\0')
 	{
 		i++;
 	}
-	printf("Uzunluq: %d\n", i);
-	return (0);
+	return (i);
 }
