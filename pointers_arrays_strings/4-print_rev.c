@@ -18,7 +18,7 @@ void print_rev(char *s)
 	}
 	i--;
 
-	while (i>=0)
+	while (i >= 0)
 	{
 		write(1, &s[i], 1);
 		i--;
