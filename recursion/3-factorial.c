@@ -13,5 +13,5 @@ int factorial(int n){
         i = i+1;
         s = s*i;
     }
-    return(s) 
+    return(s);
 }
