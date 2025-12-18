@@ -6,7 +6,7 @@
  *
  * Return: factorial of the number 
  */
-int factorial(int n){
+int factorial(n){
     int s = 1;
     int i = 0;
     while(i < n){
