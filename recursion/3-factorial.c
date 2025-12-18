@@ -8,12 +8,14 @@
  */
 int factorial(int n)
 {
-    int sum = 1;
-    int i = 0;
-    while(i < n)
+    if(n > 0)
     {
-        i = i+1;
-        sum*=i;
+        return(n*factorial(n-1));
     }
-    return(s);
+    else if(n==0) {
+        return(0);
+    }
+    else{
+        return(-1);
+    }
 }
