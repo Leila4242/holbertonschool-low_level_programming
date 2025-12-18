@@ -8,12 +8,12 @@
  */
 int factorial(int n)
 {
-    int s = 1;
+    int sum = 1;
     int i = 0;
     while(i < n)
     {
         i = i+1;
-        s*=i;
+        sum*=i;
     }
     return(s);
 }
