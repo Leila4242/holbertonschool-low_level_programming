@@ -11,7 +11,7 @@ int factorial(int n){
     int i = 0;
     while(i < n){
         i = i+1;
-        s = s*i;
+        s*=i;
     }
     return(s);
 }
