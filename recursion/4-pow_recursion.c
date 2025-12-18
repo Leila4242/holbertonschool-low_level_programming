@@ -1,20 +1,22 @@
 #include "main.h"
 
 /**
- * power - returns the power of the given number
+ * _pow_recursion - returns the power of the given number
  * @x: base number
- * @y: exponant
+ * @y: exponent
  *
- * Return: power of the number, or -1 if n is negative
+ * Return: power of the number, or -1 if y is negative
  */
 
 int _pow_recursion(int x, int y)
 {
-    if(y==0){
-        return(1);
-    }
-    else if(y<0){
-        return(-1);
-    }
-    return(x*_pow_recursion(x,y-1));
+	if (y < 0)
+	{
+		return (-1);
+	}
+	if (y == 0)
+	{
+		return (1);
+	}
+	return (x * _pow_recursion(x, y - 1));
 }
